@@ -1,21 +1,14 @@
-#!/usr/bin/env python
-# coding: utf-8
 
-# <h1>Data Visualization Using Matplotlib</h1>
-# <h2>Description</h2>
-# <p>In this project, I will be exploring data through data visualisation. Codes will be used to explore the patterns and connections in a dataset. Matplotlib will be imported and used to make simple plots. Plotly will be used to make visualization that work well on digital devices. </p>
-
-# In[1]:
+ <h1>Data Visualization Using Matplotlib</h1>
+ <h2>Description</h2>
+ <p>In this project, I will be exploring data through data visualisation. Codes will be used to explore the patterns and connections in a dataset. Matplotlib will be imported and used to make simple plots. Plotly will be used to make visualization that work well on digital devices. </p>
 
 
 import matplotlib
 import matplotlib.pyplot as plt
 
 
-# <h2>Plotting a simple Line Graph</h2>
-
-# In[2]:
-
+<h2>Plotting a simple Line Graph</h2>
 
 x_input=[1,2,3,4,5]
 squares= [1,4,9,16,25]
