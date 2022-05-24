@@ -22,11 +22,9 @@ ax.tick_params(axis="both",labelsize=10)#set the thick
 plt.show()
 
 
-# <h2>Calculating Data Automatically</h2>
+<h2>Calculating Data Automatically</h2>
 
-# <p>A loop will be used to generate data points automatically</p>
-
-# In[3]:
+<p>A loop will be used to generate data points automatically</p>
 
 
 x_data=range(1,100)#range of value 1 to 100
@@ -42,10 +40,8 @@ ax.axis([0,103,0,10000])
 plt.show()
 
 
-# <h2>Random Walk</h2>
-# <p>This section will use python to generate a random walk data, and the visualize it using matplotlib. The random walk data creates a path that is not clear by a series of random decisions, theses decisions are left to chance.</p>
-
-# In[4]:
+<h2>Random Walk</h2>
+ <p>This section will use python to generate a random walk data, and the visualize it using matplotlib. The random walk data creates a path that is not clear by a series of random decisions, theses decisions are left to chance.</p>
 
 
 from random import choice
@@ -80,9 +76,7 @@ class RandomWalk:
         
 
 
-# <h3>Plot the generated data</h3>
-
-# In[ ]:
+<h3>Plot the generated data</h3>
 
 
 while True:#keep making new walk as long as the program is active
@@ -105,8 +99,8 @@ while True:#keep making new walk as long as the program is active
         break
 
 
-# <h2>About the Author:</h2>
-# <p><a href="https://www.linkedin.com/in/oluwajuwon-mayomi-akanbi"><b>Akanbi Oluwajuwon Mayomi<b></a> has a Master's degree in Economics, his interest are data science, web development, and researchs on international economics </p>
+<h2>About the Author:</h2>
+<p><a href="https://www.linkedin.com/in/oluwajuwon-mayomi-akanbi"><b>Akanbi Oluwajuwon Mayomi<b></a> has a Master's degree in Economics, his interest are data science, web development, and researchs on international economics </p>
 
-# <h2>Reference</h2>
-# <p>Matthes, Eric (2015). Python crash course: A hands-on, project-based introduction to programming. no starch press. page 305-322</p>
+<h2>Reference</h2>
+<p>Matthes, Eric (2015). Python crash course: A hands-on, project-based introduction to programming. no starch press. page 305-322</p>
